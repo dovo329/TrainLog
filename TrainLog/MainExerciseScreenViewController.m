@@ -9,11 +9,16 @@
 #import "MainExerciseScreenViewController.h"
 #import "MainExerciseScreenDataSource.h"
 
-@interface MainExerciseScreenViewController ()
+@interface MainExerciseScreenViewController () <UIGestureRecognizerDelegate>
 
 @end
 
 @implementation MainExerciseScreenViewController
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

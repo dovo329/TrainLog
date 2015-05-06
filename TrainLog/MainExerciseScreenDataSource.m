@@ -8,6 +8,8 @@
 
 #import "MainExerciseScreenDataSource.h"
 #import "ExerciseCell.h"
+#import "ExerciseCell3Sets.h"
+#import "ExerciseCell5Sets.h"
 
 @implementation MainExerciseScreenDataSource
 
@@ -32,10 +34,23 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"exerciseCell"];
-    ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell"];
+    //ExerciseCell3Sets *cell = (ExerciseCell3Sets *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell3Sets"];
+    //ExerciseCell5Sets *cell = (ExerciseCell5Sets *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell5Sets"];
+    //ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell"];
+    //ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell5Sets"];
+    NSString *cellID = nil;
+    if ((arc4random() % 2) < 1) {
+        cellID = @"exerciseCell3Sets";
+    } else {
+        cellID = @"exerciseCell5Sets";
+    }
+
+    ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:cellID];
     if (cell==nil)
     {
         NSLog(@"nil case");
+        //cell = [ExerciseCell3Sets new];
+        //cell = [ExerciseCell5Sets new];
         cell = [ExerciseCell new];
     } else {
         //NSLog(@"not nil case");
@@ -49,7 +64,7 @@
     cell.set4Reps.text = @"";
     cell.set5Reps.text = @"";
     cell.backgroundColor = [UIColor purpleColor];
-    return cell;
+    return (UITableViewCell *)cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

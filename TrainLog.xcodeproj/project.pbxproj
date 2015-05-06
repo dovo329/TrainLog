@@ -15,8 +15,6 @@
 		A51FF0F61AF97D600059555E /* TrainLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51FF0F51AF97D600059555E /* TrainLogTests.m */; };
 		A51FF1021AF981050059555E /* MainExerciseScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51FF1001AF981050059555E /* MainExerciseScreenViewController.m */; };
 		A51FF1061AF992A90059555E /* MainExerciseScreenDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A51FF1051AF992A90059555E /* MainExerciseScreenDataSource.m */; };
-		A552C2BE1AFA971E009A7D93 /* ExerciseCell3Sets.m in Sources */ = {isa = PBXBuildFile; fileRef = A552C2BD1AFA971E009A7D93 /* ExerciseCell3Sets.m */; };
-		A552C2C41AFA977F009A7D93 /* ExerciseCell5Sets.m in Sources */ = {isa = PBXBuildFile; fileRef = A552C2C31AFA977F009A7D93 /* ExerciseCell5Sets.m */; };
 		A5FEB7751AF9B7E200DB9B0D /* ExerciseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB7741AF9B7E200DB9B0D /* ExerciseCell.m */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +44,6 @@
 		A51FF1001AF981050059555E /* MainExerciseScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainExerciseScreenViewController.m; sourceTree = "<group>"; };
 		A51FF1041AF992A90059555E /* MainExerciseScreenDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainExerciseScreenDataSource.h; sourceTree = "<group>"; };
 		A51FF1051AF992A90059555E /* MainExerciseScreenDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainExerciseScreenDataSource.m; sourceTree = "<group>"; };
-		A552C2BC1AFA971E009A7D93 /* ExerciseCell3Sets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCell3Sets.h; sourceTree = "<group>"; };
-		A552C2BD1AFA971E009A7D93 /* ExerciseCell3Sets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCell3Sets.m; sourceTree = "<group>"; };
-		A552C2C21AFA977F009A7D93 /* ExerciseCell5Sets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCell5Sets.h; sourceTree = "<group>"; };
-		A552C2C31AFA977F009A7D93 /* ExerciseCell5Sets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCell5Sets.m; sourceTree = "<group>"; };
 		A5FEB7731AF9B7E200DB9B0D /* ExerciseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCell.h; sourceTree = "<group>"; };
 		A5FEB7741AF9B7E200DB9B0D /* ExerciseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,10 +99,6 @@
 				A51FF1051AF992A90059555E /* MainExerciseScreenDataSource.m */,
 				A5FEB7731AF9B7E200DB9B0D /* ExerciseCell.h */,
 				A5FEB7741AF9B7E200DB9B0D /* ExerciseCell.m */,
-				A552C2BC1AFA971E009A7D93 /* ExerciseCell3Sets.h */,
-				A552C2BD1AFA971E009A7D93 /* ExerciseCell3Sets.m */,
-				A552C2C21AFA977F009A7D93 /* ExerciseCell5Sets.h */,
-				A552C2C31AFA977F009A7D93 /* ExerciseCell5Sets.m */,
 			);
 			path = TrainLog;
 			sourceTree = "<group>";
@@ -242,8 +232,6 @@
 				A5FEB7751AF9B7E200DB9B0D /* ExerciseCell.m in Sources */,
 				A51FF1021AF981050059555E /* MainExerciseScreenViewController.m in Sources */,
 				A51FF1061AF992A90059555E /* MainExerciseScreenDataSource.m in Sources */,
-				A552C2BE1AFA971E009A7D93 /* ExerciseCell3Sets.m in Sources */,
-				A552C2C41AFA977F009A7D93 /* ExerciseCell5Sets.m in Sources */,
 				A51FF0DF1AF97D600059555E /* AppDelegate.m in Sources */,
 				A51FF0DC1AF97D600059555E /* main.m in Sources */,
 			);

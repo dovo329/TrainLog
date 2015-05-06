@@ -8,8 +8,6 @@
 
 #import "MainExerciseScreenDataSource.h"
 #import "ExerciseCell.h"
-#import "ExerciseCell3Sets.h"
-#import "ExerciseCell5Sets.h"
 
 @implementation MainExerciseScreenDataSource
 

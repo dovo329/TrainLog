@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainExerciseScreenViewController : UITableViewController <UITableViewDelegate>
+@interface MainExerciseScreenViewController : UITableViewController <UITableViewDelegate, UITextFieldDelegate>
 
 @end

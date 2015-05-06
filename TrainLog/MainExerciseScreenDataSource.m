@@ -17,6 +17,7 @@
     
     [self.exerciseNameArray addObject:@"squat"];
     [self.exerciseNameArray addObject:@"deadlift"];
+    [self.exerciseNameArray addObject:@"oh press"];
     
     self.unitsString = @"lbs";
     
@@ -37,16 +38,16 @@
         NSLog(@"nil case");
         cell = [ExerciseCell new];
     } else {
-        NSLog(@"not nil case");
+        //NSLog(@"not nil case");
     }
     cell.exerciseName.text = [self.exerciseNameArray objectAtIndex:indexPath.row];
     cell.unitsString.text = self.unitsString;
-    cell.weightAmount.text = @"0";
-    cell.set1Reps.text = @"0";
-    cell.set2Reps.text = @"0";
-    cell.set3Reps.text = @"0";
-    cell.set4Reps.text = @"0";
-    cell.set5Reps.text = @"0";
+    cell.weightAmount.text = @"";
+    cell.set1Reps.text = @"";
+    cell.set2Reps.text = @"";
+    cell.set3Reps.text = @"";
+    cell.set4Reps.text = @"";
+    cell.set5Reps.text = @"";
     cell.backgroundColor = [UIColor purpleColor];
     return cell;
 }

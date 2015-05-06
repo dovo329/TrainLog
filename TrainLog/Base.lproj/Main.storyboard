@@ -298,6 +298,88 @@
                                     <outlet property="weightAmount" destination="Es1-A2-fCC" id="9RI-rA-8Ch"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exerciseCell1Set" rowHeight="75" id="cex-PW-Gaq" userLabel="exerciseCell1Sets" customClass="ExerciseCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cex-PW-Gaq" id="OfF-Jp-ATi">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwp-eb-35t">
+                                            <rect key="frame" x="16" y="27" width="94" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Units" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pd-mF-kSU">
+                                            <rect key="frame" x="192" y="27" width="40" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xDK-uH-IZj">
+                                            <rect key="frame" x="118" y="7" width="66" height="60"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="66" id="Mi0-Po-6jM"/>
+                                                <constraint firstAttribute="height" constant="60" id="PUr-D7-zXZ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="oub-Wc-bf6" id="Jk3-Kn-226"/>
+                                            </connections>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBm-cQ-Nu2">
+                                            <rect key="frame" x="558" y="7" width="26" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Li4-J5-LLC">
+                                            <rect key="frame" x="558" y="36" width="26" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="oub-Wc-bf6" id="XCO-5d-qXr"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="centerX" secondItem="kwp-eb-35t" secondAttribute="centerX" constant="226.5" id="13o-mz-m0t"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="aBm-cQ-Nu2" secondAttribute="trailing" constant="8" id="DLJ-7A-vGI"/>
+                                        <constraint firstItem="xDK-uH-IZj" firstAttribute="leading" secondItem="OfF-Jp-ATi" secondAttribute="leadingMargin" constant="110" id="DhO-vz-pTk"/>
+                                        <constraint firstAttribute="centerY" secondItem="xDK-uH-IZj" secondAttribute="centerY" id="FJH-XF-JIU"/>
+                                        <constraint firstItem="Li4-J5-LLC" firstAttribute="bottom" secondItem="OfF-Jp-ATi" secondAttribute="bottomMargin" id="IRl-FR-WXX"/>
+                                        <constraint firstAttribute="centerY" secondItem="xDK-uH-IZj" secondAttribute="centerY" constant="15" id="JuE-IM-R44"/>
+                                        <constraint firstItem="Li4-J5-LLC" firstAttribute="centerX" secondItem="aBm-cQ-Nu2" secondAttribute="centerX" id="OM1-hd-EJH"/>
+                                        <constraint firstItem="Li4-J5-LLC" firstAttribute="top" secondItem="aBm-cQ-Nu2" secondAttribute="bottom" constant="8" id="Uny-u4-uda"/>
+                                        <constraint firstItem="kwp-eb-35t" firstAttribute="leading" secondItem="OfF-Jp-ATi" secondAttribute="leadingMargin" constant="8" id="VL4-l6-qYZ"/>
+                                        <constraint firstItem="aBm-cQ-Nu2" firstAttribute="top" secondItem="OfF-Jp-ATi" secondAttribute="topMargin" constant="-1" id="b4Z-J9-3kp"/>
+                                        <constraint firstAttribute="centerX" secondItem="xDK-uH-IZj" secondAttribute="centerX" constant="128" id="bIo-tK-kEu"/>
+                                        <constraint firstAttribute="centerY" secondItem="kwp-eb-35t" secondAttribute="centerY" id="cge-lb-C6c"/>
+                                        <constraint firstAttribute="centerX" secondItem="xDK-uH-IZj" secondAttribute="centerX" constant="128" id="dza-m4-Na9"/>
+                                        <constraint firstItem="xDK-uH-IZj" firstAttribute="leading" secondItem="kwp-eb-35t" secondAttribute="trailing" constant="8" id="esW-eO-BqO"/>
+                                        <constraint firstItem="6pd-mF-kSU" firstAttribute="leading" secondItem="xDK-uH-IZj" secondAttribute="trailing" constant="8" id="f5l-Fa-bLk"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Li4-J5-LLC" secondAttribute="trailing" constant="8" id="rwp-P8-yEm"/>
+                                        <constraint firstItem="6pd-mF-kSU" firstAttribute="leading" secondItem="xDK-uH-IZj" secondAttribute="trailing" constant="8" id="w3Y-cm-JJ7"/>
+                                        <constraint firstAttribute="centerX" secondItem="6pd-mF-kSU" secondAttribute="centerX" constant="65.5" id="xyK-9E-gMo"/>
+                                        <constraint firstAttribute="centerY" secondItem="6pd-mF-kSU" secondAttribute="centerY" id="zgU-Ik-qMP"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="13o-mz-m0t"/>
+                                            <exclude reference="JuE-IM-R44"/>
+                                            <exclude reference="bIo-tK-kEu"/>
+                                            <exclude reference="dza-m4-Na9"/>
+                                            <exclude reference="xyK-9E-gMo"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="exerciseName" destination="kwp-eb-35t" id="zIn-7m-r1B"/>
+                                    <outlet property="set5Reps" destination="Li4-J5-LLC" id="1Mf-Jd-47b"/>
+                                    <outlet property="unitsString" destination="6pd-mF-kSU" id="TY8-QF-bFH"/>
+                                    <outlet property="weightAmount" destination="xDK-uH-IZj" id="rAE-an-Zfo"/>
+                                </connections>
+                            </tableViewCell>
                         </prototypes>
                         <sections/>
                         <connections>

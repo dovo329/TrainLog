@@ -37,7 +37,10 @@
     //ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell"];
     //ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell5Sets"];
     NSString *cellID = nil;
-    if ((arc4random() % 2) < 1) {
+    int randNum = (arc4random() % 3);
+    if (randNum < 1) {
+        cellID = @"exerciseCell1Set";
+    } else if (randNum < 2) {
         cellID = @"exerciseCell3Sets";
     } else {
         cellID = @"exerciseCell5Sets";

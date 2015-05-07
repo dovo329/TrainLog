@@ -15,9 +15,9 @@
 {
     self.exerciseNameArray = [NSMutableArray new];
     
-    [self.exerciseNameArray addObject:@"squat"];
-    [self.exerciseNameArray addObject:@"deadlift"];
-    [self.exerciseNameArray addObject:@"oh press"];
+    [self.exerciseNameArray addObject:@"Squat"];
+    [self.exerciseNameArray addObject:@"Deadlift"];
+    [self.exerciseNameArray addObject:@"OH Press"];
     
     self.unitsString = @"lbs";
     
@@ -37,14 +37,14 @@
     //ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell"];
     //ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:@"exerciseCell5Sets"];
     NSString *cellID = nil;
-    int randNum = (arc4random() % 3);
-    if (randNum < 1) {
-        cellID = @"exerciseCell1Set";
-    } else if (randNum < 2) {
-        cellID = @"exerciseCell3Sets";
-    } else {
+    //int randNum = (arc4random() % 3);
+    //if (randNum < 1) {
+    //    cellID = @"exerciseCell1Set";
+    //} else if (randNum < 2) {
+    //    cellID = @"exerciseCell3Sets";
+    //} else {
         cellID = @"exerciseCell5Sets";
-    }
+    //}
 
     ExerciseCell *cell = (ExerciseCell *)[tableView dequeueReusableCellWithIdentifier:cellID];
     if (cell==nil)

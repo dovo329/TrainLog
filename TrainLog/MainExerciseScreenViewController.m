@@ -48,6 +48,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    //UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"chromeMesh.png"]];
+    //[self.tableView setBackgroundView:imageView];
+    UIColor *backgroundPatternColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"chromeMesh.png"]];
+    self.tableView.backgroundColor = backgroundPatternColor;
+    
     //self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
     //self.tableView.delegate = self;
     //self.tableView.dataSource = [[MainExerciseScreenDataSource alloc] init];

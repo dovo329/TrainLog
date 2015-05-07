@@ -17,6 +17,7 @@
 		A51FF1061AF992A90059555E /* MainExerciseScreenDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A51FF1051AF992A90059555E /* MainExerciseScreenDataSource.m */; };
 		A56A608A1AFB1BC4001E798D /* CellHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A60881AFB1BC4001E798D /* CellHighlight.png */; };
 		A56A608B1AFB1BC4001E798D /* CellNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A60891AFB1BC4001E798D /* CellNormal.png */; };
+		A583D53B1AFC231E007FE1D1 /* chromeMesh.png in Resources */ = {isa = PBXBuildFile; fileRef = A583D53A1AFC231E007FE1D1 /* chromeMesh.png */; };
 		A5FEB7751AF9B7E200DB9B0D /* ExerciseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB7741AF9B7E200DB9B0D /* ExerciseCell.m */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		A51FF1051AF992A90059555E /* MainExerciseScreenDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainExerciseScreenDataSource.m; sourceTree = "<group>"; };
 		A56A60881AFB1BC4001E798D /* CellHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellHighlight.png; sourceTree = "<group>"; };
 		A56A60891AFB1BC4001E798D /* CellNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellNormal.png; sourceTree = "<group>"; };
+		A583D53A1AFC231E007FE1D1 /* chromeMesh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chromeMesh.png; sourceTree = "<group>"; };
 		A5FEB7731AF9B7E200DB9B0D /* ExerciseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCell.h; sourceTree = "<group>"; };
 		A5FEB7741AF9B7E200DB9B0D /* ExerciseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 		A51FF0D81AF97D600059555E /* TrainLog */ = {
 			isa = PBXGroup;
 			children = (
+				A583D53A1AFC231E007FE1D1 /* chromeMesh.png */,
 				A56A60881AFB1BC4001E798D /* CellHighlight.png */,
 				A56A60891AFB1BC4001E798D /* CellNormal.png */,
 				A51FF0DD1AF97D600059555E /* AppDelegate.h */,
@@ -219,6 +222,7 @@
 				A56A608B1AFB1BC4001E798D /* CellNormal.png in Resources */,
 				A51FF0E51AF97D600059555E /* Main.storyboard in Resources */,
 				A51FF0EA1AF97D600059555E /* LaunchScreen.xib in Resources */,
+				A583D53B1AFC231E007FE1D1 /* chromeMesh.png in Resources */,
 				A51FF0E71AF97D600059555E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

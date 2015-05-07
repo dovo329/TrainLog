@@ -11,7 +11,10 @@
 @interface ExerciseCell : UITableViewCell
 
 @property (nonatomic) IBOutlet UILabel *exerciseName;
-@property (nonatomic) IBOutlet UILabel *unitsString;
+@property (nonatomic) IBOutlet UILabel *warmup1Amount;
+@property (nonatomic) IBOutlet UILabel *warmup2Amount;
+@property (nonatomic) IBOutlet UILabel *warmup3Amount;
+@property (nonatomic) IBOutlet UILabel *warmup4Amount;
 @property (nonatomic) IBOutlet UITextField *weightAmount;
 @property (nonatomic) IBOutlet UITextField *set1Reps;
 @property (nonatomic) IBOutlet UITextField *set2Reps;

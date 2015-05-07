@@ -15,6 +15,8 @@
 		A51FF0F61AF97D600059555E /* TrainLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51FF0F51AF97D600059555E /* TrainLogTests.m */; };
 		A51FF1021AF981050059555E /* MainExerciseScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A51FF1001AF981050059555E /* MainExerciseScreenViewController.m */; };
 		A51FF1061AF992A90059555E /* MainExerciseScreenDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A51FF1051AF992A90059555E /* MainExerciseScreenDataSource.m */; };
+		A56A608A1AFB1BC4001E798D /* CellHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A60881AFB1BC4001E798D /* CellHighlight.png */; };
+		A56A608B1AFB1BC4001E798D /* CellNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A60891AFB1BC4001E798D /* CellNormal.png */; };
 		A5FEB7751AF9B7E200DB9B0D /* ExerciseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB7741AF9B7E200DB9B0D /* ExerciseCell.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		A51FF1001AF981050059555E /* MainExerciseScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainExerciseScreenViewController.m; sourceTree = "<group>"; };
 		A51FF1041AF992A90059555E /* MainExerciseScreenDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainExerciseScreenDataSource.h; sourceTree = "<group>"; };
 		A51FF1051AF992A90059555E /* MainExerciseScreenDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainExerciseScreenDataSource.m; sourceTree = "<group>"; };
+		A56A60881AFB1BC4001E798D /* CellHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellHighlight.png; sourceTree = "<group>"; };
+		A56A60891AFB1BC4001E798D /* CellNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellNormal.png; sourceTree = "<group>"; };
 		A5FEB7731AF9B7E200DB9B0D /* ExerciseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCell.h; sourceTree = "<group>"; };
 		A5FEB7741AF9B7E200DB9B0D /* ExerciseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +91,8 @@
 		A51FF0D81AF97D600059555E /* TrainLog */ = {
 			isa = PBXGroup;
 			children = (
+				A56A60881AFB1BC4001E798D /* CellHighlight.png */,
+				A56A60891AFB1BC4001E798D /* CellNormal.png */,
 				A51FF0DD1AF97D600059555E /* AppDelegate.h */,
 				A51FF0DE1AF97D600059555E /* AppDelegate.m */,
 				A51FF0E31AF97D600059555E /* Main.storyboard */,
@@ -209,6 +215,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56A608A1AFB1BC4001E798D /* CellHighlight.png in Resources */,
+				A56A608B1AFB1BC4001E798D /* CellNormal.png in Resources */,
 				A51FF0E51AF97D600059555E /* Main.storyboard in Resources */,
 				A51FF0EA1AF97D600059555E /* LaunchScreen.xib in Resources */,
 				A51FF0E71AF97D600059555E /* Images.xcassets in Resources */,

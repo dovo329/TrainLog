@@ -57,14 +57,17 @@
         //NSLog(@"not nil case");
     }
     cell.exerciseName.text = [self.exerciseNameArray objectAtIndex:indexPath.row];
-    cell.unitsString.text = self.unitsString;
     cell.weightAmount.text = @"";
     cell.set1Reps.text = @"";
     cell.set2Reps.text = @"";
     cell.set3Reps.text = @"";
     cell.set4Reps.text = @"";
     cell.set5Reps.text = @"";
-    cell.backgroundColor = [UIColor purpleColor];
+    cell.backgroundView = [[UIImageView alloc] initWithImage:[ [UIImage imageNamed:@"CellNormal.png"] stretchableImageWithLeftCapWidth:0.0 topCapHeight:0.0]];
+    cell.selectedBackgroundView = [[UIImageView alloc] initWithImage:[ [UIImage imageNamed:@"CellHighlight.png"] stretchableImageWithLeftCapWidth:0.0 topCapHeight:0.0]];
+    //cell.backgroundColor = [UIColor purpleColor];
+    //cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+
     return (UITableViewCell *)cell;
 }
 
